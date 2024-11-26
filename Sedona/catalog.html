@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Каталог гостиниц Седоны</title>
+   <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet">
+   <link rel="stylesheet" href="./css/reset.css">
+   <link rel="stylesheet" href="./css/catalog.css">
+   <link rel="stylesheet" href="./css/fonts/PTSans/stylesheet.css">
+</head>
+
+<body>
+   <nav>
+      <img src="./img/logo.svg">
+      <a>
+         <a href="./index.html">
+            <li>Главная</li>
+         </a>
+         <a href="#">
+            <li>О Седоне</li>
+         </a>
+         <a href="./catalog.html">
+            <li class="selected">Гостиницы</li>
+         </a>
+         </ul>
+         <div class="nav-button">
+            <img src="./img/search.svg" alt="" width="18px" height="18px">
+            <img src="./img/favorite.svg" alt="" width="18px" height="17px">
+            <a href="./catalog.html">Хочу сюда!</a>
+         </div>
+   </nav>
+
+   <header>
+      <h1>Гостиницы Седоны</h1>
+      <div class="nav-link">
+         <a href="./index.html"><img src="./img/home.svg" alt=""></a>
+         <img src="./img/nav-link.svg" alt="">
+         <p>Гостиницы</p>
+      </div>
+      <div class="change">
+         <div class="checkbox">
+            <h4>Инфраструктура</h4>
+            <label for="cb1"><input type="checkbox" id="cb1" checked />&nbsp;&nbsp;&nbsp;Бассейн</label>
+            <label for="cb2"><input type="checkbox" id="cb2" checked />&nbsp;&nbsp;&nbsp;Парковка</label>
+            <label for="cb3"><input type="checkbox" id="cb3" />&nbsp;&nbsp;&nbsp;WiFi</label>
+         </div>
+         <div class="radio">
+            <h4>Тип жилья</h4>
+            <label for="r1"><input type="radio" id="r1" name="Type" checked>&nbsp;&nbsp;&nbsp;Гостиница</label>
+            <label for="r2"><input type="radio" id="r2" name="Type">&nbsp;&nbsp;&nbsp;Мотель</label>
+            <label for="r3"><input type="radio" id="r3" name="Type">&nbsp;&nbsp;&nbsp;Аппартаменты</label>
+         </div>
+         <div class="price">
+            <h4>Стоимость, ₽:</h4>
+            <input type="text" placeholder="от" id="t1">
+            <input type="text" placeholder="до" id="t2">
+            <div class="polzunok">
+               <div class="p1"></div>
+               <div class="p2"></div>
+               <div class="p3"></div>
+               <div class="p4"></div>
+            </div>
+         </div>
+         <div class="header-buttons">
+            <a href="#" class="submit">Применить</a>
+            <a href="#" class="reset">Сбросить</a>
+         </div>
+      </div>
+   </header>
+
+</body>
+
+</html>
