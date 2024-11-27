@@ -279,6 +279,7 @@ select {
    margin-left: auto;
    margin-right: auto;
    display: flex;
+   flex-wrap: wrap;
 }
 
 .card {
@@ -298,7 +299,7 @@ h3 {
 }
 
 table {
-   width: 100%;
+   width: 300px;
    margin-top: 10px;
 }
 
@@ -331,19 +332,31 @@ td {
    border-radius: 4px;
    margin-left: 26px;
 }
+
+.butizbr2 {
+   font-size: 16px;
+   font-weight: 800;
+   text-transform: uppercase;
+   text-align: center;
+   color: white;
+   width: 133px;
+   height: 37px;
+   background-color: #7DB54F;
+   border-radius: 4px;
+   margin-left: 26px;
+}
+
 .center {
    width: 25px;
 }
 
 .reiting {
-      font-size: 16px;
-         font-weight: 400;
-         text-transform: uppercase;
-         text-align: center;
-         color: black;
-         width: 133px;
-         height: 37px;
-         background-color: #F2F2F2;
-         border-radius: 4px;
-         margin-left: 26px;
+   font-size: 16px;
+   font-weight: 400;
+   text-transform: uppercase;
+   text-align: center;
+   color: black;
+   background-color: #F2F2F2;
+   border-radius: 4px;
+   margin-left: 26px;
 }
