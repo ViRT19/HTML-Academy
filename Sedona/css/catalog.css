@@ -273,3 +273,20 @@ select {
    border-style: solid;
    border-radius: 4px;
 }
+
+.cards {
+   width: 1056px;
+   margin-left: auto;
+   margin-right: auto;
+}
+.card {
+   width: 340px;
+   height: 408px;
+   border-color: bisque;
+}
+
+h3 {
+   font-size: 24px;
+   font-weight: 800;
+   margin-top: 16px;
+}
