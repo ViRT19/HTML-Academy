@@ -278,15 +278,72 @@ select {
    width: 1056px;
    margin-left: auto;
    margin-right: auto;
+   display: flex;
 }
+
 .card {
    width: 340px;
    height: 408px;
    border-color: bisque;
+   margin-right: 58px;
+   padding-top: 20px;
+   padding-left: 20px;
+   padding-right: 20px;
 }
 
 h3 {
    font-size: 24px;
    font-weight: 800;
    margin-top: 16px;
+}
+
+table {
+   width: 100%;
+   margin-top: 10px;
+}
+
+td {
+   height: 37px;
+   vertical-align: middle;
+}
+
+.butpodr {
+   font-size: 16px;
+   font-weight: 800;
+   text-transform: uppercase;
+   text-align: center;
+   color: white;
+   width: 133px;
+   height: 37px;
+   background-color: #756257;
+   border-radius: 4px;
+}
+
+.butizbr1 {
+   font-size: 16px;
+   font-weight: 800;
+   text-transform: uppercase;
+   text-align: center;
+   color: white;
+   width: 133px;
+   height: 37px;
+   background-color: #83B3D3;
+   border-radius: 4px;
+   margin-left: 26px;
+}
+.center {
+   width: 25px;
+}
+
+.reiting {
+      font-size: 16px;
+         font-weight: 400;
+         text-transform: uppercase;
+         text-align: center;
+         color: black;
+         width: 133px;
+         height: 37px;
+         background-color: #F2F2F2;
+         border-radius: 4px;
+         margin-left: 26px;
 }
