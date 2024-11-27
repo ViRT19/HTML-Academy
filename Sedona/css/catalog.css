@@ -150,7 +150,8 @@ input[type="checkbox"] {
    margin-top: 5px;
 }
 
-#t1::placeholder, #t2::placeholder {
+#t1::placeholder,
+#t2::placeholder {
    text-align: right;
    opacity: 30%;
    padding-right: 14px;
@@ -229,4 +230,46 @@ input[type="checkbox"] {
    margin-top: 8px;
    text-decoration: none;
    color: white;
+}
+
+.found {
+   width: 1057px;
+   height: 48px;
+   margin-top: 44px;
+   margin-bottom: 53px;
+   display: flex;
+   margin-right: auto;
+   margin-left: auto;
+}
+
+h2 {
+   font-size: 30px;
+   font-weight: 800;
+   text-transform: uppercase;
+   text-wrap: nowrap;
+}
+
+select {
+   width: 247px;
+   height: 48px;
+   margin-left: 192px;
+   font-size: 18px;
+   padding-left: 19px;
+}
+
+.icons {
+   margin-left: 80px;
+   display: flex;
+   justify-content: flex-end;
+}
+
+.icons a {
+   width: 16px;
+   height: 16px;
+   padding: 16px;
+   margin-left: 16px;
+   border: 1px;
+   border-color: black;
+   border-style: solid;
+   border-radius: 4px;
 }
