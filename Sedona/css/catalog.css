@@ -392,6 +392,10 @@ td {
    display: flex;
 }
 
+.page-buttons {
+   display: flex;
+}
+
 .page-select {
    width: 55px;
    height: 55px;
@@ -408,16 +412,16 @@ td {
 
 .page-other {
    width: 55px;
-      height: 55px;
-      background-color: #83B3D3;
-      color: white;
-      font-size: 20px;
-      font-weight: 800;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      border-radius: 4px;
-      margin-right: 8px;
+   height: 55px;
+   background-color: #83B3D3;
+   color: white;
+   font-size: 20px;
+   font-weight: 800;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 4px;
+   margin-right: 8px;
 }
 
 .hotel-on-page {
